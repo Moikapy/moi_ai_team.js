@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Specify ECMAScript target version
+    "module": "ESNext", // Specify module code generation
+    "moduleResolution": "Node", // Module resolution strategy
+    "baseUrl": ".", // Base directory
+    "paths": {
+      "@src/*": ["src/*"] // Alias for src directory
+    }
+  },
+  "include": [
+    "src/**/*", // Include all files in src directory
+    "server.ts" // Include server.js file
+  ],
+  "exclude": [
+    "node_modules" // Exclude node_modules directory
+  ]
+}

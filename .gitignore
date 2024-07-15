@@ -2,3 +2,9 @@
 node_modules/
 
 temp/
+
+storage/memory
+
+storage/memory-shm
+
+storage/memory-wal
